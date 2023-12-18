@@ -1,0 +1,667 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.topbar{
+    background: #410088;
+    width: 100%;
+    height: 38px;
+    display: flex;
+}
+.header{
+    background: #9239a1;
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.menu{
+    background: #f8b023;
+    width: 100%;
+    height: 55px;
+}
+.menu ul li{
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+    padding: 0 px;
+    text-decoration: none;
+   
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 35px;
+}
+.menu ul li a:hover{
+    background: black;
+    transition: 1s;
+    
+    
+   
+
+}
+.topbar i{
+    color: white;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 30px;
+
+}
+.para{
+    color: white;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.logo{
+    margin-top: 10px;
+    height: 90px;
+    margin-left: 40px;
+}
+.header h1{
+    color: yellow;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 30px;
+    
+}
+.header h1 span{
+    color: white;
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.logo2{
+    margin-top: 10px;
+    height: 90px;
+    padding-left: 220px;
+}
+.slider{
+    height: 300px;
+    width: 100%;
+    
+}
+.marquee{
+    height: 45px;
+    width: 100%;
+    background-color: #4d4090;
+    background-image: url(/Images/city_background.png);
+    
+}
+.marquee p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.mainbox{
+    height: 200px;
+    width: 95%;
+    background-color: bisque;
+    margin-top: 40px;
+    margin-left: 35px; 
+    border: 1px solid skyblue;
+    
+}
+.secondmainbox{
+    height: 100px;
+    width: 100%;
+    
+    
+    border: 1px solid skyblue;
+    display: flex;
+}
+.box1{
+    height: 100px;
+    width: 385px;
+    border: 1px solid skyblue;
+    position: relative;
+}
+.image1{
+    height: 70px;
+    width: 90px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.img1{
+    height: 70px;
+    width: 90px;
+    margin-top: 10px;
+}
+
+
+
+.thirdmainbox{
+    height: 100px;
+    width: 100%;
+ 
+    
+    border: 1.5px solid skyblue;
+    display: flex;
+}
+.card{
+    height: 500px;
+    width: 94%;
+    background-color: aliceblue;
+    margin-top: 60px;
+    margin-left: 40px;
+    display: flex;
+}
+.card1{
+    height: 500px;
+    width: 45%;
+    background-color: white;
+    
+}
+.btn{
+    height: 38px;
+    width: 120px;
+    background-color: #4d4090;
+    border: none;
+       font-size: 16px;
+       font-weight: 600;
+    color: white;
+}
+.btn:hover{
+    background-color: yellowgreen;
+    transition: 1s;
+}
+.card2{
+    height: 500px;
+    width: 55%;
+    background-color: white;
+    
+    
+    
+}
+.box2{
+    height: 180px;
+    width: 100%;
+    background-color: aqua;
+    
+    
+}
+.box2img{
+    height: 100px;
+    width: 110px;
+    margin-top: 13px;
+}
+.box3{
+    height: 180px;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 10px;
+}
+.box4{
+    height: 110px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+
+   
+}
+.box5{
+    height: 110px;
+    width: 49%;
+    background-color:aqua ;
+    
+    position: relative;
+}
+.imagebox{
+    height: 90px;
+    width: 80px;
+    
+    position: absolute;
+}
+.box6{
+    height: 110px;
+    width: 49%;
+    background-color:aqua ;
+     
+    margin-left: 12px;
+    position: relative;
+}
+.imagebox2{
+    height: 90px;
+    width: 80px;
+
+    position: absolute;
+}
+.box5img{
+    height: 90px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box5 h4{
+    text-align: center;
+    padding-left: 60px;
+    padding-top: 10px;
+    font-weight: 550;
+    color: #4d4090;
+         
+}
+.box5 p{
+    padding-left: 130px;
+    padding-top: 12px;
+    font-size: 13px;
+    
+}
+
+.box6img{
+    height: 90px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box6 h4{
+    text-align: center;
+    padding-left: 90px;
+    padding-top: 10px;
+    font-weight: 550;
+     color: #4d4090;
+         
+}
+.box6 p{
+    padding-left: 130px;
+    padding-top: 12px;
+    font-size: 13px;
+}
+.mainbox2{
+    height: 370px;
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+}
+.marquee1{
+height: 370px;
+width: 360px;
+
+margin: 20px;
+border-bottom: 2px solid  #4d4090;
+border-radius: 14px;
+background-color: aquamarine;
+
+}
+.box10{
+    height: 50px;
+    width: 360px;
+    background-color: steelblue;
+    border-radius: 5px;
+    
+    
+}
+.box10 p{
+    color: white;
+    padding-top: 14px;
+}
+.circular{
+    color: #ffcd00;
+    font-weight: 700;
+
+}
+
+.marquee2{
+    height: 370px;
+    width: 360px;
+    
+    margin: 20px;
+    border-bottom: 2px solid  #4d4090;
+    border-radius: 14px;
+    background-color: aquamarine;
+    
+    }
+    .box11{
+        height: 50px;
+        width: 360px;
+        background-color: steelblue;
+        border-radius: 5px;
+        
+        
+    }
+    .box11 p{
+        color: white;
+        padding-top: 14px;
+    }
+
+
+
+    .marquee3{
+        height: 370px;
+    width: 360px;
+    
+        
+        margin: 20px;
+        border-bottom: 2px solid  #4d4090;
+        border-radius: 14px;
+        background-color: aquamarine;
+        
+        }
+
+        .box12{
+            height: 50px;
+            width: 360px;
+            background-color: coral;
+            border-radius: 5px;
+            
+            
+        }
+        .box12 p{
+            color: white;
+            padding-top: 14px;
+            font-weight: 700;
+            font-size: 15px;
+        }
+        .box15{
+            height: 200px;
+            width: 100%;
+            display: flex;
+            margin-top: 40px;
+        }
+        .box16{
+            height: 200px;
+            width: 25%;
+            background-image: url(/Images/city_background.png);
+            background-color: #2d4a79;
+    
+        }
+        .box16 img{
+            height: 120px;
+            width: 160px;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+        .box17{
+            height: 200px;
+            width: 75%;
+            background-image: url(/Images/city_background.png);
+            background-color: #2d4a79;
+
+    
+        }
+        .box17 h2{
+            color: #ffcd00;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 70px;
+    font-size: 30px;
+    margin-left: 100px;
+        }
+        .btn2{
+            height: 38px;
+            width: 120px;
+            background-color: yellowgreen;
+           margin-right: 40px;
+            border: none;
+               font-size: 16px;
+               font-weight: 600;
+            color: white;
+            float:right;
+        }
+        .btn2:hover{
+            background-color: violet;
+            transition: 1s;
+        }
+        .box18{
+            height: 300px;
+            width: 100%;
+            
+            margin-top: 5px;
+        }
+        .box18 h2{
+            font-family: 'Josefin Sans', sans-serif;
+            color: #212121;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        .box18  img{
+            height:60px;
+            width: 50px;
+            background: #33537b;
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+        .box18 p{
+            font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+    background: #fff;
+    color: #212121;
+    text-align: justify;
+    margin-left: 160px;
+        }
+        .gallery{
+            height: 330px;
+            width: 100%;
+            background-color: aqua;
+            display: flex;
+        }
+        .gallery h1{
+            padding-top: 80px;
+            padding-left: 30px;
+            font-weight: 600;
+    line-height: 1.4em;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+        }
+       
+       
+       
+       
+        
+        
+        .gallery1{
+            height: 200px;
+            width: 330px;
+           
+            margin: 10px;
+            margin-left: 70px;
+            margin-top: 50px;
+           
+            
+        }
+        .gallery2{
+            height: 200px;
+            width: 330px;
+          
+            margin-left: 10px;
+            margin-top: 50px;
+           
+            
+        }
+        .gallery3{
+            height: 200px;
+            width: 300px;
+           
+            margin-left: 22px;
+            margin-top: 50px;
+           
+            
+        }
+        .images{
+            height: 100px;
+            width: 100%;
+          
+        }
+        .images img{
+            height: 70px;
+            width: 130px;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+        .footer{
+            height: 470px;
+            width: 100%;
+            background-color: #32363a;
+            margin-top: 25px;
+            display: flex;
+        }
+        .footer iframe{
+            margin-top: 50px;
+            border-radius: 6px;
+            margin-left: 5px;
+        }
+        .footerbox1{
+            height: 380px;
+            width: 30%;
+          
+            margin-top: 60px;
+            margin-left: 20px;
+        }
+        .footerbox1 span{
+             color: #eeac1e;
+             font-family: 'Josefin Sans', sans-serif;
+             padding: 3px;
+             font-size: 1.8vw;
+             font-weight: 600;
+        }
+        .footerbox1 h4{
+            color: white;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-size: 1.8vw;
+            font-weight: 600;
+        }
+       
+
+        
+        .footerbox2{
+            height: 380px;
+            width: 32%;
+          
+            margin-top: 60px;
+            margin-left: 20px;
+           
+        }
+        .footerbox2 span{
+            color: #eeac1e;
+            font-family: 'Josefin Sans', sans-serif;
+            padding: 3px;
+            font-size: 1.8vw;
+            font-weight: 600;
+       }
+       .footerbox2 h4{
+           color: white;
+           font-family: 'Josefin Sans', sans-serif;
+           font-size: 20px;
+           font-size: 1.8vw;
+           font-weight: 600;
+       }
+       .p{
+        color: #cecece;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 60px;
+        padding-left: 10px;
+        cursor: pointer;
+        font-size: 14px;
+    
+       }
+       .para2{
+        float: right;
+        margin-top: -160px;
+        margin-right: 20px;
+        color: #cecece;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 14px;
+       }
+      
+      
+      
+        .footerbox3{
+            height: 380px;
+            width: 30%;
+          
+            margin-top: 60px;
+            margin-left: 44px;
+        }
+        .footerbox3 span{
+            color: #eeac1e;
+            font-family: 'Josefin Sans', sans-serif;
+            padding: 3px;
+            font-size: 1.8vw;
+            font-weight: 600;
+       }
+       .footerbox3 h4{
+           color: white;
+           font-family: 'Josefin Sans', sans-serif;
+           font-size: 20px;
+           font-size: 1.8vw;
+           font-weight: 600;
+       }
+       .floor{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 14px;
+        margin-top: 60px;
+        margin-left: 50px;
+        color: #cecece;
+        
+       }
+      .telephone{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 23px;
+        margin-left: 50px;
+        font-size: 14px;
+        color: #cecece;
+      }
+      .lastbox{
+        height: 50px;
+        width: 100%;
+        background-color: #3b4044;
+        display: flex;
+      }
+      .lastbox1{
+        height: 50px;
+        width: 70%;
+       
+      }
+      .lastbox2{
+        height: 50px;
+        width: 30%;
+       
+      }
+
+      .lastpara{
+        color: #cecece;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 14px;
+        padding-top: 15px;
+        padding-left: 40px;
+
+      }
+      .visit{
+       
+       color: red;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+    
+    
+      }
+      .visit2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 14px;
+        margin-left: 130px;
+        margin-top: 17px;
+        color: #cecece;
+      }
+     
+      
+        
+       
+       
+            
+
+
+
+

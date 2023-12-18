@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    
+    
+}
+.box{
+    padding-left: 55px;
+}
+.menubox{
+    padding-right: 50px;
+    
+}
+.menubox a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    font-family: sans-serif;
+}
+.menubox a:hover{
+    color: orange;
+}
+nav button{
+    height: 37px;
+    width: 160px;
+    background-color: #ff2b85;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+nav button:hover{
+    background-color: darkgoldenrod;
+}
+.fa{
+    font-size: 23px;
+    margin-left: 15px;
+}
+.banner{
+    height: 500px;
+    width: 100%;
+}
+.bannerimg{
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+}
+.paragraph{
+    height: 200px;
+    width: 70%;
+}
+.para{
+    margin-top: 80px;
+    color: black;
+    margin-left: 60px;
+    font-family: SemiBold,sans-serif;
+    line-height: 1.25;
+    letter-spacing: -.025em;
+    font-size: clamp(1.75rem,3vw,2.25rem);
+}
+.card{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    
+    margin-top: 100px;
+}
+.card1{
+    height: 300px;
+    width: 50%;
+   
+}
+.cardimg{
+    height: 300px;
+    width: 90%;
+    margin-left: 70px;
+}
+.card2{
+    height: 300px;
+    width: 50%;
+   
+}
+.card2heading{
+    margin-left: 90px;
+    font-size: 40px;
+    
+}
+.card2heading2{
+    font-size: 17px;
+    margin-left: 90px;
+    margin-top: 20px;
+    
+    font-family: Regular,sans-serif;
+}
+.btn{
+    height: 45px;
+    width: 170px;
+    background-color: #ff2b85;
+    border-radius: 27px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 80px; 
+    margin-top: 26px;
+}
+.btn:hover{
+    background-color: olive;
+}
+.card3{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    
+    margin-top: 150px;
+}
+.carda{
+    height: 300px;
+    width: 50%;
+}
+.cardb{
+    height: 300px;
+    width: 50%;
+}
+.cardaheading{
+margin-left: 100px;
+font-size: 40px;
+margin-top: 70px;
+}
+.cardaheading1{
+    margin-left: 100px;
+    font-size: 17px;
+    margin-top: 20px;
+    font-family: Regular,sans-serif;
+    }
+    .apple{
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+    
+    .google{
+        margin-left: 15px;
+    }
+    .app{
+        margin-left: 15px;
+    }
+    .cardbimg{
+        height: 300px;
+        margin-left: 50px;
+    }
+    .box1{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        margin-top: 70px;
+    }
+    .box2{
+        height: 400px;
+        width: 50%;
+        
+    }
+    .image{
+        height: 350px;
+        margin-left: 100px;
+    }
+    .box3{
+        height: 400px;
+        width: 50%;
+        
+    }
+    .box3heading{
+        margin-left: 60px;
+        margin-top: 60px;
+    }
+    .box3para{
+        margin-left: 60px;
+        font-family: Regular,sans-serif;
+        margin-top: 30px;
+        font-size: 17px;
+    }
+    .btn2{
+        height: 45px;
+        width: 120px;
+        background-color: #ff2b85;
+        border-radius: 27px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 60px; 
+        margin-top: 26px;
+    }
+    .btn2:hover{
+        background-color: olive;
+    }
+    .head{
+        font-size: 40px;
+    }
+    .para2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .mainbox{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        margin-top: 80px;
+    }
+    .mainbox2{
+        height: 400px;
+        width: 50%;
+        
+    }
+    .h3{
+        font-size: 40px;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .p{
+        font-size: 17px;
+        margin-left: 70px;
+        font-family: Regular,sans-serif;
+        margin-top: 20px;
+    }
+    .learn{
+        font-size: 20px;
+        color:  #ff2b85;
+        margin-left: 80px;
+    }
+    
+
+    .mainbox3{
+        height: 400px;
+        width: 50%;
+        
+    }
+    .foodimg{
+        height: 350px;
+        width: 550px;
+    }
+    .footer{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        background-color: black;
+    }
+    .footerbox1{
+        height: 400px;
+        width: 25%;
+       
+    }
+    .footerimg{
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .navigate{
+        margin-top: 40px;
+        margin-left: 150px;
+    }
+    .home{
+        color: white;
+        margin-left: 80px;
+        margin-top: 35px;
+        font-family: sans-serif;
+    }
+    .About{
+        color: white;
+        margin-left: 80px;
+        margin-top: 17px;
+        font-family: sans-serif;
+    }
+    .contact{
+        color: white;
+        margin-left: 80px;
+        margin-top: 15px;
+        font-family: sans-serif;
+    }
+    .newsroom{
+        color: white;
+        margin-left: 80px;
+        margin-top: 15px;
+        font-family: sans-serif;
+    }
+   
+    .footerbox2{
+        height: 400px;
+        width: 25%;
+       
+    }
+    .collabrote{
+        margin-top: 160px;
+        margin-left: 100px;
+    }
+    .footerbox3{
+        height: 400px;
+        width: 25%;
+       
+    }
+    .footerbox4{
+        height: 400px;
+        width: 25%;
+       
+    }
+    
+
+
+
+
+
+
+    .footerimg{
+        margin-top: 69px;
+        margin-left: 70px;
+    }
+    .navigate{
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+   .Home{
+    color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 80px;
+  margin-top: 12px;
+   }
+   .collabrote{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+.carrer{
+        color: white;
+        margin-left: 80px;
+        margin-top: 35px;
+        font-family: sans-serif;
+    
+}
+.become{
+    color: white;
+    margin-left: 80px;
+    margin-top: 15px;
+    font-family: sans-serif;
+
+}
+.try{
+    color: white;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+.feed{
+    color: white;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+.follow{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 155px;
+    margin-left: 20px;
+    
+}
+.footerbox4 i{
+    color: white;
+    margin-top: 18px;
+    margin-left: 19px;
+    font-size: 30px;
+}
+.box4{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    
+}
+.box4 p{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 80px;
+    padding-top: 40px;
+    
+    
+    
+}
+.privacy{
+    float: right;
+    color: white;
+    padding-right: 50px;
+    
+}
+
+    
